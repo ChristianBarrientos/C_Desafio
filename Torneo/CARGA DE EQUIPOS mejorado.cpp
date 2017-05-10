@@ -51,14 +51,14 @@ void cargar_datos()
 	char barrio[20][50]={"Brinca","Corre","Permanece de pie","Rio verde","Rio mucho","Rio loco","Caballo","Corcelitos","Perritos","Gatitos","Ratoncitos","Amas de casa","Universitarios","Trabajadores","Tintoreros","Capitalistas","Belojo","Beldía","Belseno","Belhombro"};
 	char nom_juga[400][50];
 	int dni_juga[400],i,j,edad[400],rojas[400],ama[400],ptos[20],gf[20],gc[20];
-	FILE* J=fopen("jugadores.txt","rt");
-	FILE* D=fopen("dni.txt","rt");
-	FILE* E=fopen("edades.txt","rt");
-	FILE* R=fopen("tarj_rojas.txt","rt");
-	FILE* AM=fopen("tarj_ama.txt","rt");
-	FILE* P=fopen("ptos.txt","rt");
-	FILE* GF=fopen("GF.txt","rt");
-	FILE* GC=fopen("GC.txt","rt");
+	FILE* J=fopen("simulacion/jugadores.txt","rt");
+	FILE* D=fopen("simulacion/dni.txt","rt");
+	FILE* E=fopen("simulacion/edades.txt","rt");
+	FILE* R=fopen("simulacion/tarj_rojas.txt","rt");
+	FILE* AM=fopen("simulacion/tarj_ama.txt","rt");
+	FILE* P=fopen("simulacion/ptos.txt","rt");
+	FILE* GF=fopen("simulacion/GF.txt","rt");
+	FILE* GC=fopen("simulacion/GC.txt","rt");
 	if(A==NULL)
 	{
 		printf("Error");

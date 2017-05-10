@@ -62,9 +62,9 @@ void cargar_datos()
 	char barrio[20][50]={"Brinca","Corre","Permanece de pie","Rio verde","Rio mucho","Rio loco","Caballo","Corcelitos","Perritos","Gatitos","Ratoncitos","Amas de casa","Universitarios","Trabajadores","Tintoreros","Capitalistas","Belojo","Beldía","Belseno","Belhombro"};
 	char nom_juga[400][50];
 	int dni_juga[400],i,j,edad[400];
-	FILE* J=fopen("jugadores.txt","rt");
-	FILE* D=fopen("dni.txt","rt");
-	FILE* E=fopen("edades.bin","rt");
+	FILE* J=fopen("simulacion/jugadores.txt","rt");
+	FILE* D=fopen("simulacion/dni.txt","rt");
+	FILE* E=fopen("simulacion/edades.bin","rt");
 	if(A==NULL)
 	{
 		printf("Error");
